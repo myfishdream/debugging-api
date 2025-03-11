@@ -566,7 +566,7 @@ const copyResponse = async () => {
         <a-form-item label="服务器地址">
           <a-input
             v-model:value="serverConfig.baseUrl"
-            placeholder="请输入服务器地址，例如：http://192.168.31.9:8080"
+            placeholder="请输入服务器地址，例如：http://000.000.00.000:8080"
           >
             <template #prefix>
               <span style="color: rgba(0, 0, 0, 0.45)">BaseURL:</span>
